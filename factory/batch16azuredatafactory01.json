@@ -1,0 +1,9 @@
+{
+	"name": "batch16azuredatafactory01",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c509912-6b5f-497c-9cf3-708fe83e9139",
+		"tenantId": "48d58994-34bf-4654-802c-d7ace5b31744"
+	}
+}
