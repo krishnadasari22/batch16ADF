@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "batch16adf0498"
+		},
+		"ADFMetaData_password": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"azuresqldatalinkedservice_password": {
+			"value": ""
+		},
+		"ADFMetaData_properties_typeProperties_server": {
+			"value": "batch16sqlservernew.database.windows.net"
+		},
+		"ADFMetaData_properties_typeProperties_database": {
+			"value": "batch16sqldb"
+		},
+		"ADFMetaData_properties_typeProperties_userName": {
+			"value": "saradaadmin"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://batch16strggen2.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "batch16sqlservernew.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "batch16sqldb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "saradaadmin"
+		},
+		"azuresqldatalinkedservice_properties_typeProperties_server": {
+			"value": "batch16sqlservernew.database.windows.net"
+		},
+		"azuresqldatalinkedservice_properties_typeProperties_database": {
+			"value": "batch16sqldb"
+		},
+		"azuresqldatalinkedservice_properties_typeProperties_userName": {
+			"value": "saradaadmin"
+		}
+	}
+}
