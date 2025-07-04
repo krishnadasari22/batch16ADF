@@ -1,0 +1,76 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azuresqldatalinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SourceSystem",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourceTable",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TargetTable",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SourcePath",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TargetPath",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FileNamePattern",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FileType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Delimiter",
+				"type": "char"
+			},
+			{
+				"name": "HasHeader",
+				"type": "bit"
+			},
+			{
+				"name": "CopyOptions",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SchemaMapping",
+				"type": "nvarchar"
+			},
+			{
+				"name": "IsActive",
+				"type": "bit"
+			},
+			{
+				"name": "LastUpdated",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "IngestionMetadata"
+		}
+	}
+}
